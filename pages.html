@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>ALIENT</title>
+	<link rel="icon" href="images\logo.png" sizes="32x32">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Seen Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<link href='http://fonts.useso.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.useso.com/css?family=Fugaz+One' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/responsiveslides.min.js"></script>
+	<script>
+    	$(function () {
+      		$("#slider").responsiveSlides({
+      			auto: true,
+      			nav: true,
+      			speed: 500,
+        		namespace: "callbacks",
+        		pager: true,
+      		});
+    	});
+
+  	</script>
+<!---- start-smoth-scrolling---->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+ 	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+<!---End-smoth-scrolling---->
+
+</head>
+<body>
+<!-- header -->
+	<div class="header" id="home">
+		<div class="header-top">
+			<div class="container">
+				<div class="icon">
+					<ul>
+				  		<li><i class="message"></i></li>
+						<li><a href="mailto:example@mail.com">123@456.com</a></li>
+						<li><i class="phone"></i></li>
+						<li><p>+00(123)4567890</p</li>
+					</ul>
+				</div>
+				<div class="social-icons">
+					<ul>
+						<li><a href="login.html"><span>登录/注册</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+	    	<div class="header-bottom">
+				<div class="logo">
+					<img src="images\logo2.png" alt="">
+				</div>
+				<div class="top-menu">
+					<span class="menu"><img src="images/nav-icon.png" alt=""/></span>
+					<ul>
+						<nav class="cl-effect-5">
+							<li><a href="index.html" class="active"><span data-hover="主页">主页</span></a></li>
+							<li><a href="pages.html"><span data-hover="酒店">酒店</span></a></li>
+							<li><a href="pages.html"><span data-hover="客栈公寓">客栈公寓</span></a></li>
+							<li><a href="pages.html"><span data-hover="国内机票">国内机票</span></a></li>
+							<li><a href="pages.html"><span data-hover="国际机票">国际机票</span></a></li>
+							<li><a href="blog.html"><span data-hover="攻略游记">攻略游记</span></a></li>
+						</nav>
+					</ul>
+				</div>
+				<!--script-nav-->
+		 		<script>
+		 			$("span.menu").click(function(){
+		 				$(".top-menu ul").slideToggle("slow" , function(){
+		 				});
+		 			});
+		 		</script>
+				
+			</div>
+		</div>			<!-- 404 -->
+		<div class="main page-not-found text-center">
+			<div class="container">
+				<h1>糟糕 </h1>
+				<h2>页面不知道去哪里了</h2>
+				<p>There's a lot of reasons why this page is<span class="error"> 404</span>.<br>
+				<span>Don't waste your time enjoying the look of it</span></p>
+				<a href="index.html" class="button">返回主页</a>
+			</div>
+   		</div>
+	 	<div class="footer-section">
+			<div class="container">
+				<div class="bottom-menu">
+					<ul>
+						<li><a href="pages.html">酒店</a></li>
+						<li><a href="pages.html">客栈公寓</a></li>
+						<li><a href="pages.html">国内机票</a></li>
+						<li><a href="pages.html">国际机票</a></li>
+						<li><a href="blog.html">攻略游记</a></li>
+					</ul>
+				</div>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+			</div>				
+		</div>
+</body>
+</html>
